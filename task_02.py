@@ -4,3 +4,10 @@
 
 
 import hamlet
+# Global scope
+POSITIONAL = 0.003743916749954224
+
+
+
+
+
