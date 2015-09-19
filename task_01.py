@@ -1,17 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """This module provides a function that knows what you mean"""
-#Global scope
+# Global scope
 numwink = 2
 
 
-def know_what_i_mean(wink, nudges='nudge'):
+def know_what_i_mean(wink,  nudges='nudge'):
     """Does some math and returns a string.
 
     Args:
         wink (mixed): Arg to be repeated by global variable.
         nudges (mixed): Arg to be repeated by global variable.
-    
     Returns:
         str: All arguments concatenated with a coma.
 

@@ -1,5 +1,5 @@
 #!usr/bi/env python
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """Using Booleans and integers to determine amount of catfood"""
 
 
@@ -21,5 +21,3 @@ def too_many_kittens(kittens, litterboxes, catfood=bool):
     False
      """
     return not (litterboxes >= kittens and catfood)
-    
-

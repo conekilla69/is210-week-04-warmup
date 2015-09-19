@@ -1,6 +1,7 @@
 #!/usr/bin/env python
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """Assigning default values and returning a logical comparison."""
+
 
 def defaults(my_required, my_optional='true'):
     """Determines if required is the same as optional.
@@ -19,6 +20,5 @@ def defaults(my_required, my_optional='true'):
             False
         >>> defaults(3, 6)
             False
-    
     """
     return my_optional is my_required
